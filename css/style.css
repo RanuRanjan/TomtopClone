@@ -2,18 +2,26 @@
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+   
+}
+body{
+    background-color: #F5F5F5;
 }
 
 /* Sign in page */
   #Sign-main{
-      width:50%;
-      margin: 100px auto;
+      width:30%;
+      margin: 20px auto;
       text-align: center;
   }
 
 
   #Sign-main>.form{
-      border: 1px solid black;
+      /* border: 1px solid black; */
+      background-color: #fffF;
+      border-radius: 5px;
+      padding:20px;
+
         }
 
   .SignIn-h3>h3{
@@ -45,21 +53,25 @@
          height: 25;
   }
 .or{
-      display: inline-flex;
+      
       color: #666;
+     
   }
-.line{
-    border-bottom: 1px solid #666;
-    width: 150px;
-}
 
 
 input{
     display: block;
-    text-align: center;
     width: 90%;
     height: 50px;
     margin: auto;
-   margin-bottom: 10px !important;
+    margin-bottom: 20px !important;
 
+}
+#signBtn{
+    margin-top: 10px;
+    background-color: #fbab32;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
 }
