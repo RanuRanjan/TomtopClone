@@ -1,0 +1,72 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+   
+}
+body{
+    background-color: #F5F5F5;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+}
+
+/* Sign in page */
+  #Sign-main{
+      width:30%;
+      margin: 20px auto;
+      text-align: center;
+  }
+
+
+  #Sign-main>.form{
+      /* border: 1px solid black; */
+      background-color: #fffF;
+      border-radius: 5px;
+      padding:20px;
+
+        }
+
+  .SignIn-h3>h3{
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    line-height: 16px;
+    color: #333;
+    font-size: 22px;
+    padding: 24px;
+    text-transform: capitalize;
+    text-align: center;
+    font-weight: 450;
+}
+
+.large-box{
+    display: block;
+    width: 90%;
+    height: 45px;
+    margin: auto;
+    margin-bottom: 20px !important;
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 2px ;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#signUpBtn{
+    margin-top: 10px;
+    background-color: #fbab32;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
+    text-align: center;
+}
+.SignUp{
+    text-decoration: none;
+    color: #4d82b8;
+    font-size: 13px;
+    line-height: 16px;
+}
+.agree{
+    text-align: left;
+     line-height: 16px;
+    font-size: 13px;
+    margin-left: 10px;
+    
+}
