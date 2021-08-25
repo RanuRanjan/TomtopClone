@@ -145,8 +145,35 @@
 
 
  /* Slideshow */
+ 
 
  #slideshow>img{
      width: 100%;
-     height: 100%;
+     height: 455px;
+
+     
+ }
+
+
+ /* Recomded col */
+
+ #recomdede-col{
+    margin-top: 0px;
+    background-color: #F0F0F0;
+}
+ #recomdede-col>ul{
+     display: flex;
+     list-style-type: none;
+     width: 90%;
+     margin: auto;
+     text-align: center;
+ }
+ ul li a{
+     text-decoration: none;
+ }
+ .recom-p{
+     margin-top: 10px;
+     font-weight: 600;
+     color: black;
+     font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
  }
