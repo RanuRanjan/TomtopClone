@@ -8,7 +8,6 @@
 }
 
 
-
 /* header style */
 .banner{
     margin-bottom: 0px !important;
@@ -58,10 +57,11 @@
     margin-left: 0px;
     padding-left: 5px;
 }
-.seach-icon{
-    width: 46px;
-    height: 40px;
-    /* margin-top: 10px !important; */
+#seach-icon{
+    padding: 12px;
+    height: 60%;
+    background-color: #709AC6;
+    color: #fff;
     border-radius: 3px;
 }
 .sign-cont{
@@ -99,3 +99,46 @@
     flex-direction: column;
     text-align: center;
 }
+#menu-bar{
+    background-color: #ffff;
+    height: 55px;
+    border: 1px solid black;
+    display: flex;
+
+    
+}
+#menu-bar>div:nth-child(2){
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: 13px !important;
+    width:80%;
+    display: flex;
+
+}
+#menu-bar>div:nth-child(1){
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    
+}
+#menu-bar>div>i{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#menu-bar>div>p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: start;
+}
+.menu-list>ul{
+   display: flex;
+   list-style-type: none;
+   margin: 15px;
+
+}
+.menu-list>ul>li{
+     margin-right:55px;
+     font-size: 13px;
+     font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+ }
