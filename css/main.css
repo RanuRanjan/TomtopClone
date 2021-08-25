@@ -142,3 +142,11 @@
      font-size: 13px;
      font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
  }
+
+
+ /* Slideshow */
+
+ #slideshow>img{
+     width: 100%;
+     height: 100%;
+ }
