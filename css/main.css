@@ -66,8 +66,19 @@
     border-radius: 3px;
 }
 .sign-cont{
-    margin: 10px 0px 0px 60px!important;
+    margin: 10px 0px 0px 0px!important;
 }
+.light-yellow{
+    color: #FF9900;
+}
+
+#icon-list{
+    display: flex;
+    margin-left: 30px; 
+    justify-content: space-around;
+    width: 30%;
+}
+
 
 .sign-cont>a>img{
 
@@ -78,7 +89,7 @@
     
 }
 .fav{
-    margin: 10px 0px 0px 40px!important;
+    margin: 10px 0px 0px 0px!important;
     text-align: center;
 }
 .fav>img{
@@ -90,7 +101,7 @@
 }
 
 .Cart{
-    margin: 10px 0px 0px 40px!important;
+    margin: 10px 0px 0px 0px!important;
     text-align: center;
 }
 .Cart>img{
