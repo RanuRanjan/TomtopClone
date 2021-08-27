@@ -19,10 +19,10 @@ Deciding the deadline helped a lot to build this website clone on time.
 # Day By Day Plan:
 
 So after exploring the website and their flow I first decided to make the structure of the website.
-On Day one i started working landing page where i faced lot of difficulties  in structring .Then I
-decided to work to first created small small section .All thing is going very smooth but On day3 when added js in 
-webpages its not working .Then decided to  once again go through swanand sir lecture that help me alot in figure out where i am 
-doing wrong .
+On Day One I started working landing page where i faced lots of difficulties  in structring .Then I
+decided to work to  created small small section then add it on last .All thing is going very smooth but On Day3 when I added js in 
+webpages its not working .Then decided to go once again through swanand sir lecture that help me alot in figure out where i am 
+doing wrong .Thanks masai team for giving such support.
 
 # Tech Stacks Used:
 ![image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTm4xfaGnFTkxYnvblP_Gc16-muqLBI7x5lxWm2OQGt1clwWFi_aRBgESUJOZGaSUUSZZo&usqp=CAU)
