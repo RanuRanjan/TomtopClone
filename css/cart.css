@@ -131,8 +131,30 @@ hr{
     font-size: 20px;
     font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
     font-weight: 700;
+    color: #FF9900;
+}
+#Discount  span{
+     display: inline;
+     text-decoration: line-through;
+     color: #666666;
+}
+#final_total{
+    font-size: 20px;
+    font-family: "Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-weight: 700;
+    color: #FF9900;
+    margin-left: 20px;
 }
 
+
+/* cart footer */
+.cart-footer{
+    width: 90vw;
+    margin: 50px auto;
+}
+.cart-footer>img{
+    width: 100%;
+}
 
 
 

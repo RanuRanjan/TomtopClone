@@ -78,6 +78,11 @@
     justify-content: space-around;
     width: 30%;
 }
+.menu-a{
+    text-decoration: none;
+    margin-top: 7px;
+    color: black;
+}
 
 
 .sign-cont>a>img{

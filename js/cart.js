@@ -53,6 +53,6 @@ cart_data.forEach(function (product) {
   
   total_Count.append(total)
 
-  var subtotal=total*10/100;
+  var subtotal=total*30/100;
   var checkoutPrice=total-subtotal
   final_price.append(checkoutPrice)

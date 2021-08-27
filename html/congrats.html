@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Congratulations</title>
+
+    <link rel="stylesheet" href="../css/congrats.css">
+</head>
+<body>
+  
+    <div id="main">
+          
+    <div class="header">
+        <img src="..\image\congratshead.jpg" alt="cartheader">
+      </div>
+
+      <div id="container">
+        
+        <div id="bg-circles">
+            <div id="circle-1"></div>
+            <div id="circle-2"></div>
+            <div id="circle-3"></div>
+        </div>
+        <h1 id="title">Order Placed </h1>
+        <h3 class="congrats-h3"> Tracking Id - 564875B17</h3>
+        <p class="conf-text">
+            Thank you for your choosingTOMTOP .Your Payment has been recevied. You should recevie a confirmation email shortly. Click on continue  More Shopping
+        </p>
+        <button id="btn-continue" onclick="allcheckout(event)">Continue</button>
+    </div>
+    </div>
+    
+</body>
+</html>
+<script>
+    function allcheckout(e) {
+        e.preventDefault();
+                window.location.href = '../index.html'
+    }
+</script>
+
