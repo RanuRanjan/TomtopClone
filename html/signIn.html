@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="..\css\signIn.css">
+    <link rel="stylesheet" href="..\css\signUp.css">
+
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons"
       rel="stylesheet">
 </head>
@@ -38,11 +40,12 @@
                  
                   <input type="text" id="email" placeholder="Email address">
 
-                  <input type="text" id="Password" placeholder="password">
+                  <input type="password" id="Password" placeholder="password">
                   
                   <p class="forgot">Forgot Your Password</p>
                   
-                  <input type="submit" value="Sign In" id="signBtn" >
+                  <!-- <input type="submit" value="Sign In" id="signBtn" > -->
+                  <button onclick="login(event)"  class="large-box" id="signIn">Login</button>
 
                   <span>New  To  TomTop ?</span>
                   <a class="SignUp" href="signUp.html">Create Your Account</a>
@@ -51,4 +54,18 @@
 
      </div>
 </body>
+<script>
+    let name = document.getElementById("signIn")
+    function login(e) {
+        e.preventDefault()
+      let name = document.getElementById("email").value
+      let password = document.getElementById("Password").value
+      let data = JSON.parse(localStorage.getItem("logindata"))
+      if (data.name == name && data.password == password) {
+        console.log(data)
+        window.location.href = "product.html"
+      } 
+      else alert("Please Enter Right Details")
+    }
+  </script>
 </html>

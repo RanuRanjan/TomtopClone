@@ -82,19 +82,20 @@ input{
     
   
 }
-#signBtn{
-    margin-top: 10px;
-    background-color: #fbab32;
-    color: #ffff;
-    border: none;
-    border-radius: 5px;
-    font-size: large;
-    text-align: center;
-}
+
 .SignUp{
     text-decoration: none;
     color: #4d82b8;
     font-size: 13px;
     line-height: 16px;
     
+}
+
+#signIn{
+    text-align: center;
+    background-color: #fbab32;
+    color: #ffff;
+    border: none;
+    border-radius: 5px;
+    font-size: large;
 }
