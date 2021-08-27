@@ -28,7 +28,6 @@ const productss = [
       name: "Nikon Camera Lens",
       price: "$440",
       price1:"$565",
-      price1:"$222",
       image: "https://img.tttcdn.com/product/xy/220/220/p/gu1/D/D1934/D1934-1-610a.jpg",
     },
     {
@@ -70,6 +69,7 @@ const productss = [
     {
       name: "Aluminum 2.5MPa 25KG Water Pressure",
       price: "$55",
+      price1:"$85",
       image: "https://img.tttcdn.com/product/xy/377/377/p/gu1/E/0/E6590/E6590-1-5958-TkoV.jpg",
     },
     {
@@ -93,6 +93,7 @@ const productss = [
     {
       name: "2pcs Table Folding Lifter Hydraulic Air Support",
       price: "$39",
+      price1:"$109",
       image: "https://img.tttcdn.com/product/xy/377/377/p/gu1/E/6/E18990-26/E18990-26-1-85af-GdKv.jpg",
     },
     {

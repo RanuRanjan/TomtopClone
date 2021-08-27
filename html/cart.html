@@ -5,8 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="..\css\main.css" />
-    <link rel="stylesheet" href="..\css\product.css">
+    <link rel="stylesheet" href="..\css\cart.css">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -16,115 +15,45 @@
     href="path/to/font-awesome/css/font-awesome.min.css"
   />
     <style>
-        #data{
-            display: grid;
-            grid-template-columns: 20% 20% 20%;
-            
-        }
-        img{
-            width: 100px;
-            height: 100px;
-
-        }
+       
     </style>
 </head>
 <body>
 
     <div id="main">
-        <div class="banner">
-          <img
-            src="https://img.tttcdn.com/advertising/2021/8/25/CTM1AV-1135830904.jpg"
-            alt="Sale"
-          />
+       
+        <div class="header">
+          <img src="..\image\cart.jpg" alt="cartheader">
         </div>
-  
-        <div id="header">
-          <div class="navbar center">
-            <div class="logo">
-              <img
-                src="https://static.tomtop.com/tomtop/icon/logo.png?v=3"
-                alt="TomTop"
-              />
-            </div>
-            <div class="lang">
-              <i
-                ><img
-                  src="https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/1200px-Flag_of_the_United_Kingdom.svg.png"
-                  alt=""
-                  width="16"
-                  height="13"
-              /></i>
-              <span>| English</span>
-            </div>
-            <div id="searchBar">
-              <form action="">
-                <select name="Categories" id="category">
-                  <option value="Categories">All</option>
-                  <option value="Categories">Cell phone & Assessories</option>
-                  <option value="Categories">Cameras & Phhoto Accessories</option>
-                  <option value="Categories">Toys & Hobbies</option>
-                  <option value="Categories">Sports & Outdoor</option>
-                  <option value="Categories">Smart Device & Safety</option>
-                  <option value="Categories">Apparael</option>
-                  <option value="Categories">Computer & Stationery</option>
-                </select>
-  
-                <input
-                  type="search"
-                  placeholder="What are you looking for?"
-                  id="search"
-                />
-              </form>
-              <div>
-                <!-- <img class="seach-icon"src="image\icons8-search-50.png" alt=""> -->
-                <i id="seach-icon" class="fa fa-search" aria-hidden="true"></i>
-              </div>
-            </div>
-  
-            <div class="sign-cont">
-              <a class="prod-a" href="html\signIn.html"
-                ><img src="..\image\icons8-user-60.png"
-              /></a>
-              <p>Sign In</p>
-            </div>
-  
-            <div class="fav">
-              <img src="..\image\icons8-heart-24.png" alt="" />
-              <p>Favorities</p>
-            </div>
-  
-            <div class="Cart">
-              <img src="..\image\icons8-cart-64.png" alt="" />
-              <p>Cart</p>
-            </div>
-          </div>
-        </div>
-  
-        <div id="menu-bar" class="center">
-          <div>
-            <i class="fa fa-bars" aria-hidden="true"></i>
-            <p>Shop By Deparment</p>
-          </div>
-          <div class="menu-list">
-            <ul>
-              <li>New Arrivals</li>
-              <li><a href="#flash">Flash Deals</a></li>
-              <li>Coupons</li>
-              <li>Social Savings</li>
-              <li><a href="#TopBrands">TopBrands</a></li>
-            </ul>
-          </div>
-          <div>
-            <img
-              src="https://img.tttcdn.com/advertising/2020/10/16/SKMNuq-1158591665.jpg"
-              alt=""
-            />
-          </div>
-        </div>
+      <div class="menu-Bar">
+          <div>Item</div>
+          <div>Name</div>
+          <div>Quantity</div>
+          <div>Price</div>
+      </div>
 
-        <div id="data">
+     <div class="arrange">
+      <div class="shopCart-menu">
+        <input type="checkbox">
+        <label for="">Ships from China Warehouse</label>
+        <hr>
+       <div id="cart">
+          <div id="img"></div>
+          <div id="name"></div>
+          <div id="quantity"></div>
+          <div id="price"></div>
+       </div>
+      </div>
 
-        </div>
+      <div class="Order-total">
+        <p>Order Summary :</p>
+        <a href="paymentgiff.html"><button>Proceed to Checkout</button></a>
+      </div>
+     </div>
+
+     <button class="center" onclick="shopping()">Continue Shopping</button>
+
+        
     
  </div>
 </body>
