@@ -1,4 +1,7 @@
 
+
+
+
 let cart_data=JSON.parse(localStorage.getItem("cart"));
 // console.log(cart_data);
 
@@ -6,8 +9,10 @@ let data_img=document.getElementById("img")
 let data_name=document.getElementById("name")
 let data_price=document.getElementById("price")
 let data_quant=document.getElementById("quantity")
+let total_Count=document.getElementById("total_price")
+let final_price=document.getElementById("final_total")
 
-// var total=0
+var total=0
 
 cart_data.forEach(function (product) {
 
@@ -40,7 +45,14 @@ cart_data.forEach(function (product) {
   data_price.append(div_price);
   data_quant.append(div_quant)
 
-  
+  var total_price=Number(product.price)
+  total+=total_price
 
 });
 
+  
+  total_Count.append(total)
+
+  var subtotal=total*10/100;
+  var checkoutPrice=total-subtotal
+  final_price.append(checkoutPrice)
