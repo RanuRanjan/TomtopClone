@@ -93,6 +93,9 @@ hr{
      border-radius: 5px;
 
 }
+.center:hover{
+    font-size: 20px;
+}
 
 
 .Order-total>a>button{
@@ -105,6 +108,9 @@ hr{
      border-radius: 5px;
    margin-left: 15%;
 
+}
+.Order-total>a>button:hover{
+    font-size: 20px;
 }
 
 .price_total{

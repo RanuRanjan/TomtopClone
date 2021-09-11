@@ -135,6 +135,9 @@ body {
     border: none;
     margin-left: 37%;
   }
+  #checkout_form_submit:hover{
+    font-size: 20px;
+  }
  
   #overLay {
     position: absolute;
